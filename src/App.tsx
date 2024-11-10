@@ -7,7 +7,7 @@ import Home from './pages/Home';
 // import About from './pages/About';
 import Contact from './pages/Contact';
 import GetQuote from './pages/GetQuote';
-import { motion, AnimatePresence } from 'framer-motion';
+import {  AnimatePresence } from 'framer-motion';
 import About from './pages/About';
 import Services from './pages/Services';
 
@@ -26,7 +26,8 @@ function App() {
           </Routes>
         </AnimatePresence>
         <Footer />
-      </div>
+      </div> 
+
     </Router>
   );
 }
