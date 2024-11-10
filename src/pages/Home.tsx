@@ -24,7 +24,7 @@ const Home = () => {
             <ambientLight intensity={0.5} />
             <pointLight position={[10, 10, 10]} />
             <Suspense fallback={null}>
-              <MovingBox />
+              {/* <MovingBox /> */}
             </Suspense>
             <OrbitControls enableZoom={false} autoRotate />
           </Canvas>

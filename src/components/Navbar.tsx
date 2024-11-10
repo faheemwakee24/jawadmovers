@@ -5,7 +5,7 @@ import { Menu, X, Sun, Moon, Truck } from 'lucide-react';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [isDark, setIsDark] = useState(true);
+  const [isDark, setIsDark] = useState(false);
   const location = useLocation();
 
   const toggleTheme = () => {
